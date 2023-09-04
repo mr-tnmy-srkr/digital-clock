@@ -8,9 +8,6 @@ setInterval(() => {
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
 
-  //    let hrs =  hours > 12 ? `${hours-12}` : hours;
-  //  hrs = hours < 10 ? `0${hours}` : hours;
-
   if (hours > 12) {
     hours = hours - 12;
   }
